@@ -18,10 +18,6 @@ const compareGuesses = (userGuess, computerGuess, targetNumber) => {
     return;
   }
 
-  console.log(`User Guess Difference: ${userGuessDiff}`);
-  console.log(`Computer Guess Difference: ${computerGuessDiff}`);
-  console.log(userGuessDiff <= computerGuessDiff);
-
   return userGuessDiff <= computerGuessDiff;
 };
 
